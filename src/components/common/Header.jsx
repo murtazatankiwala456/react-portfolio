@@ -6,7 +6,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen((menuOpen) => !menuOpen);
   };
 
   return (
@@ -15,17 +15,12 @@ const Header = () => {
         <img src="/assets/Images/signature.png" alt="signature" height="50" />
       </div>
       <nav className={` main-nav ${menuOpen ? "open" : " "}`}>
-        <Link to="/" onClick={toggleMenu}>
-          Home
-        </Link>
-        <Link to="/about" onClick={toggleMenu}>
-          About
-        </Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
         <a
           target="_blank"
           href="https://github.com/murtazatankiwala456"
           rel="noopener noreferrer"
-          onClick={toggleMenu}
         >
           Github
         </a>
@@ -33,7 +28,6 @@ const Header = () => {
           target="_blank"
           href="https://www.linkedin.com/in/murtaza-tankiwala-486782268/"
           rel="noopener noreferrer"
-          onClick={toggleMenu}
         >
           LinkedIn
         </a>
