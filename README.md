@@ -2,8 +2,6 @@
 
 # In terminal type
 
-# git clone <repo link>
-
-# cd react-portflio
-
-# npm run dev
+git clone <repo link>
+cd react-portflio
+npm run dev
