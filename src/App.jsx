@@ -1,32 +1,30 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/common/Header";
-import Footer from "./components/common/Footer";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import About from "./components/About";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
 import "./style.css";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomePage></HomePage>,
+  },
+  {
+    path: "/about",
+    element: <AboutPage></AboutPage>,
+  },
+]);
 
 const App = () => {
   return (
-    <Router>
-      <Header />
-      <main className="container">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Hero />
-                <Projects />
-              </>
-            }
-          />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </main>
-      <Footer />
-    </Router>
+    <div>
+      <RouterProvider router={router} />
+    </div>
   );
 };
 
