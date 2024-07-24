@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="text">
         <h1 className="author">Murtaza Tankiwala</h1>
         <p className="role">
-          Murtaza Tankiwala is an aspiring developer and avid learner focused on
+          Murtaza Tankiwala is an aspiring developer and fresher focused on
           mastering the MERN (MongoDB, Express.js, React.js, Node.js) stack.
           Murtaza is passionate about sharing his knowledge and experiences with
           others interested in web development.
