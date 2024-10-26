@@ -7,10 +7,12 @@ const Hero = () => {
       <div className="text">
         <h1 className="author">Murtaza Tankiwala</h1>
         <p className="role">
-          Murtaza Tankiwala is an aspiring developer and fresher focused on
-          mastering the MERN (MongoDB, Express.js, React.js, Node.js) stack.
-          Murtaza is passionate about sharing his knowledge and experiences with
-          others interested in web development.
+          Murtaza Tankiwala is a junior .NET developer at Badshah Software
+          Solutions with a strong foundation in the MERN stack (MongoDB,
+          Express.js, React.js, Node.js). While focusing on .NET development
+          professionally, Murtaza is passionate about expanding his skills
+          across full-stack technologies and enjoys sharing knowledge and
+          experiences with others interested in web development.
         </p>
       </div>
       <div className="hero-image">

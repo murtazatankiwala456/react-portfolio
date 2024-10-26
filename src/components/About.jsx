@@ -21,12 +21,13 @@ const About = () => {
       <br />
       <h2>Biography</h2>
       <p>
-        I'm Murtaza, passionate about coding and creating innovative solutions.
-        Currently, I'm on a journey to become a proficient full-stack developer
-        with a focus on the MERN stack. I believe in continuous learning and
-        strive to expand my knowledge in web development technologies. My goal
-        is to contribute meaningfully to the tech community and build impactful
-        projects that solve real-world problems.
+        I'm Murtaza, a coding enthusiast with a drive for crafting innovative
+        solutions. Currently, I’m working as a junior .NET developer at Badshah
+        Software Solutions while pursuing proficiency as a full-stack developer,
+        especially with a focus on the MERN stack. I’m dedicated to continuous
+        learning and expanding my skills in web development technologies. My
+        goal is to contribute meaningfully to the tech community and build
+        impactful projects that address real-world challenges.
       </p>
       <br />
     </section>
