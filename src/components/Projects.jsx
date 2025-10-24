@@ -28,6 +28,33 @@ const Projects = () => {
           guarantees a consistent and visually appealing experience across all
           devices.
         </p>
+        <li>
+          <a
+            target="_blank"
+            href="https://task-manager.infinityfree.me/"
+            rel="noopener noreferrer"
+          >
+            <h3 className="project-title">
+              PHP Task Manager With Registration And Login System
+            </h3>
+          </a>
+        </li>
+
+        <p className="project-description">
+          Our Task Manager Application, built entirely with PHP and MySQL
+          (accessed directly via standard PHP database functions), will serve as
+          a foundational project to master core server-side scripting. It is
+          responsible for secure user management, allowing user registration and
+          login to manage personalized task lists. The data for users and tasks
+          is managed directly in a MySQL database (which you'll interact with
+          using phpMyAdmin for setup and verification). The application's core
+          logic handles CRUD (Create, Read, Update, Delete) operations for
+          tasks. This includes displaying a user's task list Users can create
+          new tasks, edit existing task details. The design emphasizes using
+          PHP's server-side rendering to generate the HTML, teaching you how PHP
+          handles dynamic content, form processing, and direct database
+          interaction without an intermediate API layer.
+        </p>
       </ul>
     </section>
   );

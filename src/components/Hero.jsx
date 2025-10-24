@@ -7,11 +7,13 @@ const Hero = () => {
       <div className="text">
         <h1 className="author">Murtaza Tankiwala</h1>
         <p className="role">
-          Murtaza Tankiwala is a junior .NET developer at Badshah Software
-          Solutions with a strong foundation in the MERN stack (MongoDB,
-          Express.js, React.js, Node.js). While focusing on .NET development
-          professionally, Murtaza is passionate about expanding his skills
-          across full-stack technologies and enjoys sharing knowledge and
+          Murtaza Tankiwala is a junior developer with a strong full-stack
+          foundation spanning the MERN stack (MongoDB, Express.js, React.js,
+          Node.js), .NET development, and growing proficiency in PHP. While
+          focusing on .NET professionally, Murtaza is passionate about expanding
+          his skills across various backend and frontend technologies. His
+          knowledge includes working with both relational databases and NoSQL
+          solutions. Murtaza enjoys sharing his diverse technical expertise and
           experiences with others interested in web development.
         </p>
       </div>
