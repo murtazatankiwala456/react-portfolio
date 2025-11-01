@@ -36,6 +36,7 @@ const Projects = () => {
           >
             <h3 className="project-title">
               PHP Task Manager With Registration And Login System
+              (Server-Side-Rendering)
             </h3>
           </a>
         </li>
@@ -54,6 +55,32 @@ const Projects = () => {
           PHP's server-side rendering to generate the HTML, teaching you how PHP
           handles dynamic content, form processing, and direct database
           interaction without an intermediate API layer.
+        </p>
+        <li>
+          <a
+            target="_blank"
+            href="https://task-manager-with-api.infinityfree.me/frontend/login/index.html"
+            rel="noopener noreferrer"
+          >
+            <h3 className="project-title">
+              PHP Task Manager With Registration And Login System (With PHP API)
+            </h3>
+          </a>
+        </li>
+
+        <p className="project-description">
+          Our Task Manager Application (modernized version) now uses a PHP-based
+          REST API with a JavaScript frontend, replacing traditional server-side
+          rendering with dynamic API-driven updates. User registration, login
+          are still handled securely via the PHP backend and MySQL database, but
+          all data interactions now occur asynchronously through API calls —
+          meaning the page no longer reloads with every action. This version
+          demonstrates how to separate the frontend and backend layers for
+          better scalability and responsiveness. The interface is built using
+          standard HTML, CSS, and JavaScript to fetch and display task data
+          dynamically. To visually distinguish this modern API-driven
+          implementation from the earlier server-rendered PHP version, the UI
+          theme has been updated with a green color scheme.
         </p>
       </ul>
     </section>
